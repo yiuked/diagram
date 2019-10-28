@@ -1,1 +1,31 @@
-<mxfile host="www.draw.io" modified="2019-10-28T07:56:23.555Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="2JpQyCg522p9gOc4zQsp" version="12.1.7" type="github" pages="1"><diagram id="CLoU5dtta0-QOBKtVROU" name="第 1 页">1VZdb5swFP01PCYCk6TJY0fTTdsqdUqndU+Ti2/BK3CZuQTYr58J5ks0Waelmibx4Ht8ba7PPQdjuV5cvlU8DW9QQGQxW5SWe2Ux5qwZs+rHFlWDXKycBgiUFA1k98BO/gSzskVzKSAzWAMRYkQyHYM+Jgn4NMK4UliM0x4xEiMg5QGMyqiBnc8jmKR9kYLCBl2zix5/BzII2zc7q00zE/M22WychVxgMYDcreV6CpGaUVx6ENXkjXm5PjLbFaYgoZcsuEnlj4dPd9vbz3ebD/fvn+ibM5u5pjaq2gOD0Oc3ISoKMcCER9sefaMwTwTUu9o66nM+IqYadDT4HYgq00yeE2oopDgys1BKuh+Mv9ZbzZcmuirNzoegMkFTZ13c0eMbKMNc+XDizK2MuAqATuSxrkla3YAxkKr0OgURJ7kf18GNzIIur++EHphm/EFjzL57HuXmTdf8QUnfu5x0TAsrrYeCE88IVd2jIpQEu5QfiCi0NccdyEjhUydo1vG7B0VQnmZ4yohZMFsumiXG6s7GeL/ojbMyZgiHnrHtVyJx+b+ouw5uQUl9bFDnVzx7oeIX/1LxbKJ47zKbin2i3KGsjRPiMqhvo/ljhIUfckXzONdXxkygn8cH9p41yBk84NhjDzBn6oH1euqB1WtZYPEMq+citaWTHeEzayxiz9nyPOyyjf1bdruvyV/Sq8P+bj7MDf5w3O0v</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-10-28T08:40:24.852Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="yoe6ULwu3oK3Mt7akIPa" version="12.1.7" type="github" pages="1">
+  <diagram id="CLoU5dtta0-QOBKtVROU" name="第 1 页">
+    <mxGraphModel dx="1822" dy="745" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="MpiqbQTEPUT9KXJkt_1--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="MpiqbQTEPUT9KXJkt_1--1" target="MpiqbQTEPUT9KXJkt_1--2" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="MpiqbQTEPUT9KXJkt_1--1" value="FabricCA" style="shape=datastore;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-54" y="192" width="60" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="MpiqbQTEPUT9KXJkt_1--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="MpiqbQTEPUT9KXJkt_1--2" target="MpiqbQTEPUT9KXJkt_1--4" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="MpiqbQTEPUT9KXJkt_1--2" value="CAs" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="104" y="212" width="88" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="MpiqbQTEPUT9KXJkt_1--4" value="CA" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" parent="1" vertex="1">
+          <mxGeometry x="290" y="212" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="BjLFL8KLVaKhMdMBRPjE-1" value="Orderer" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="-87" y="488" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="BjLFL8KLVaKhMdMBRPjE-2" value="Peer" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="-87" y="656" width="100" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
