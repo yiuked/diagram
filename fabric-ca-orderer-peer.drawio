@@ -1,1 +1,25 @@
-<mxfile host="www.draw.io" modified="2019-12-05T07:36:50.607Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" version="12.3.6" etag="AJPgGfADOEPpl_G0scmH" type="github" pages="1"><diagram id="f92AYcMgAs4UJ2Xm7mpZ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-12-06T07:48:02.734Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="_X0BnEg-ibtqLOYkfrjZ" version="12.3.7" type="github" pages="1">
+  <diagram id="f92AYcMgAs4UJ2Xm7mpZ" name="第 1 页">
+    <mxGraphModel dx="1422" dy="394" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="DQnRa8WI4qb7TQZ2dNu7-1" value="Fabric CA Server" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=standard;symbol=conditional;" vertex="1" parent="1">
+          <mxGeometry x="161" y="412" width="71" height="71" as="geometry"/>
+        </mxCell>
+        <mxCell id="DQnRa8WI4qb7TQZ2dNu7-2" value="Orderer" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=standard;symbol=conditional;" vertex="1" parent="1">
+          <mxGeometry x="468" y="412" width="71" height="71" as="geometry"/>
+        </mxCell>
+        <mxCell id="DQnRa8WI4qb7TQZ2dNu7-3" value="Peer&lt;br&gt;" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=standard;symbol=conditional;" vertex="1" parent="1">
+          <mxGeometry x="328" y="648" width="71" height="71" as="geometry"/>
+        </mxCell>
+        <mxCell id="DQnRa8WI4qb7TQZ2dNu7-4" value="Fabric CA Client&lt;br&gt;" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=standard;symbol=conditional;" vertex="1" parent="1">
+          <mxGeometry x="90" y="596.5" width="71" height="71" as="geometry"/>
+        </mxCell>
+        <mxCell id="DQnRa8WI4qb7TQZ2dNu7-5" value="Peer Cli" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=standard;symbol=conditional;" vertex="1" parent="1">
+          <mxGeometry x="682" y="643" width="71" height="71" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
