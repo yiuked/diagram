@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-19T13:18:44.183Z" agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36" etag="zusmBl1tJ6Trb6lEENvL" version="12.7.2" type="github">
+<mxfile host="www.draw.io" modified="2020-02-19T14:53:40.365Z" agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36" etag="6rcddCS1xv_CDpp4qzhr" version="12.7.2" type="github">
   <diagram id="4b6oE9e9yXz8-Ve8gJzk" name="Page-1">
     <mxGraphModel dx="1673" dy="896" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -117,9 +117,6 @@
         <mxCell id="FiD31bPnodcj56VFdIxL-31" value="阿里云-香港" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;labelBackgroundColor=none;fontColor=#ffffff;labelBorderColor=none;spacingTop=0;spacingLeft=0;shadow=1;glass=0;comic=1;" vertex="1" parent="1">
           <mxGeometry x="886" y="193" width="92" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="FiD31bPnodcj56VFdIxL-32" value="阿里云-国内" style="text;html=1;strokeColor=#4D4D4D;fillColor=#1A1A1A;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;labelBackgroundColor=none;fontColor=#ffffff;labelBorderColor=none;spacingTop=0;spacingLeft=0;shadow=1;glass=0;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="622" y="317" width="94" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="FiD31bPnodcj56VFdIxL-38" value="普通-香港" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;labelBackgroundColor=none;fontColor=#ffffff;labelBorderColor=none;spacingTop=0;spacingLeft=0;shadow=1;glass=0;comic=1;" vertex="1" parent="1">
           <mxGeometry x="403" y="186" width="81" height="26" as="geometry" />
         </mxCell>
@@ -140,20 +137,23 @@
         <mxCell id="FiD31bPnodcj56VFdIxL-44" value="阿里云-国内" style="text;html=1;strokeColor=#4D4D4D;fillColor=#1A1A1A;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;labelBackgroundColor=none;fontColor=#ffffff;labelBorderColor=none;spacingTop=0;spacingLeft=0;shadow=1;glass=0;comic=1;" vertex="1" parent="1">
           <mxGeometry x="178" y="317" width="94" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="FiD31bPnodcj56VFdIxL-45" value="阿里云-国内" style="text;html=1;strokeColor=#4D4D4D;fillColor=#1A1A1A;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;labelBackgroundColor=none;fontColor=#ffffff;labelBorderColor=none;spacingTop=0;spacingLeft=0;shadow=1;glass=0;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="395" y="445" width="94" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="FiD31bPnodcj56VFdIxL-46" value="阿里云-国内" style="text;html=1;strokeColor=#4D4D4D;fillColor=#1A1A1A;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;labelBackgroundColor=none;fontColor=#ffffff;labelBorderColor=none;spacingTop=0;spacingLeft=0;shadow=1;glass=0;comic=1;" vertex="1" parent="1">
           <mxGeometry x="178" y="445" width="94" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="FiD31bPnodcj56VFdIxL-47" value="阿里云-国内" style="text;html=1;strokeColor=#4D4D4D;fillColor=#1A1A1A;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;labelBackgroundColor=none;fontColor=#ffffff;labelBorderColor=none;spacingTop=0;spacingLeft=0;shadow=1;glass=0;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="395" y="573" width="94" height="26" as="geometry" />
         </mxCell>
         <mxCell id="FiD31bPnodcj56VFdIxL-48" value="阿里云-国内" style="text;html=1;strokeColor=#4D4D4D;fillColor=#1A1A1A;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;labelBackgroundColor=none;fontColor=#ffffff;labelBorderColor=none;spacingTop=0;spacingLeft=0;shadow=1;glass=0;comic=1;" vertex="1" parent="1">
           <mxGeometry x="178" y="573" width="94" height="26" as="geometry" />
         </mxCell>
         <mxCell id="FiD31bPnodcj56VFdIxL-49" value="普通-香港" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;labelBackgroundColor=none;fontColor=#ffffff;labelBorderColor=none;spacingTop=0;spacingLeft=0;shadow=1;glass=0;comic=1;" vertex="1" parent="1">
           <mxGeometry x="622" y="186" width="81" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FiD31bPnodcj56VFdIxL-52" value="阿里云-香港" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;labelBackgroundColor=none;fontColor=#ffffff;labelBorderColor=none;spacingTop=0;spacingLeft=0;shadow=1;glass=0;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="622" y="320" width="92" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="FiD31bPnodcj56VFdIxL-53" value="阿里云-香港" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;labelBackgroundColor=none;fontColor=#ffffff;labelBorderColor=none;spacingTop=0;spacingLeft=0;shadow=1;glass=0;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="401" y="443" width="92" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="FiD31bPnodcj56VFdIxL-54" value="阿里云-香港" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;labelBackgroundColor=none;fontColor=#ffffff;labelBorderColor=none;spacingTop=0;spacingLeft=0;shadow=1;glass=0;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="401" y="573" width="92" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
