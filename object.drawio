@@ -1,1 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2020-05-12T06:48:03.615Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36" version="13.0.1" etag="MkreymqGB4-wvnferPw3" type="github"><diagram id="ckfXY8xdF6HMiDo0OfL2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-05-12T07:35:32.050Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36" etag="N17oj6ewJ25eWZE62QlT" version="13.0.1" type="github">
+  <diagram id="ckfXY8xdF6HMiDo0OfL2" name="Page-1">
+    <mxGraphModel dx="1822" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n2W3-XKyU9g3LvurngLY-1" value="借款方" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="82" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n2W3-XKyU9g3LvurngLY-2" value="借款信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n2W3-XKyU9g3LvurngLY-3" value="出借方" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="82" y="239" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n2W3-XKyU9g3LvurngLY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="n2W3-XKyU9g3LvurngLY-4" target="n2W3-XKyU9g3LvurngLY-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n2W3-XKyU9g3LvurngLY-4" value="借款方" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-183" y="760" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n2W3-XKyU9g3LvurngLY-5" value="出借方" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="654" y="425" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n2W3-XKyU9g3LvurngLY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="n2W3-XKyU9g3LvurngLY-6" target="n2W3-XKyU9g3LvurngLY-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n2W3-XKyU9g3LvurngLY-6" value="风控" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-54" y="514" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n2W3-XKyU9g3LvurngLY-7" value="记账" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="775" y="829" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n2W3-XKyU9g3LvurngLY-8" value="借款信息" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="889" y="554" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n2W3-XKyU9g3LvurngLY-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="n2W3-XKyU9g3LvurngLY-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="234" y="692" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n2W3-XKyU9g3LvurngLY-10" value="广告公司" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="194" y="514" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n2W3-XKyU9g3LvurngLY-11" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="75" y="693" as="sourcePoint" />
+            <mxPoint x="75" y="693" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="75" y="981" />
+              <mxPoint x="390" y="981" />
+              <mxPoint x="390" y="693" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n2W3-XKyU9g3LvurngLY-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="n2W3-XKyU9g3LvurngLY-17" target="n2W3-XKyU9g3LvurngLY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n2W3-XKyU9g3LvurngLY-17" value="审核" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-40" y="774" width="52" height="52" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
