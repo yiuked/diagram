@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-19T13:24:26.198Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36" etag="T2wDOVRkmFgsxzr_qGr1" version="13.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-19T13:25:10.421Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36" etag="2URlI-LWnGxHkMe-EmHH" version="13.4.6" type="github">
   <diagram id="Evo9VvHP7VUjuqkq6gIX" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,7 +36,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Z8GrqbCu6CrSlu00cr9A-7" value="WAF" style="verticalLabelPosition=bottom;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.security_icons.waf;" vertex="1" parent="1">
-          <mxGeometry x="320" y="300" width="40" height="50" as="geometry" />
+          <mxGeometry x="320" y="310" width="40" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Z8GrqbCu6CrSlu00cr9A-10" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;rotation=90;fillColor=#CCCCCC;opacity=50;" vertex="1" parent="1">
           <mxGeometry x="305" y="230" width="70" height="60" as="geometry" />
@@ -45,13 +45,13 @@
           <mxGeometry x="294.5" y="400" width="91" height="45" as="geometry" />
         </mxCell>
         <mxCell id="Z8GrqbCu6CrSlu00cr9A-12" value="Server1" style="points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.server;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="267" y="480" width="27.500000000000004" height="50" as="geometry" />
+          <mxGeometry x="267" y="500" width="27.500000000000004" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Z8GrqbCu6CrSlu00cr9A-13" value="Server2" style="points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.server;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="326.25" y="480" width="27.500000000000004" height="50" as="geometry" />
+          <mxGeometry x="326.25" y="500" width="27.500000000000004" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Z8GrqbCu6CrSlu00cr9A-14" value="Server3" style="points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.server;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="385.5" y="480" width="27.500000000000004" height="50" as="geometry" />
+          <mxGeometry x="385.5" y="500" width="27.500000000000004" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
