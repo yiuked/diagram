@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T02:47:15.306Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="2vgyBPe4jIbTkeCAc18Q" version="15.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-21T02:54:35.660Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="iKQk1hmKwxkMHq9dEniQ" version="15.5.5" type="github">
   <diagram id="u0_twf8YNsRj_HJE-j4O" name="Page-1">
     <mxGraphModel dx="1185" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -155,7 +155,7 @@
         <mxCell id="z2xvUa6bOidR-Bl0gTQm-139" value="创建用户Token" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="g4sBY3vQFwJTmv0VMaXS-32">
           <mxGeometry x="45" y="660" width="85" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="z2xvUa6bOidR-Bl0gTQm-147" value="加入频道" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="g4sBY3vQFwJTmv0VMaXS-32">
+        <mxCell id="z2xvUa6bOidR-Bl0gTQm-147" value="开始计费" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="g4sBY3vQFwJTmv0VMaXS-32">
           <mxGeometry x="40" y="800" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="g4sBY3vQFwJTmv0VMaXS-38" value="IM" style="swimlane;startSize=20;strokeColor=#808080;dashed=1;dashPattern=1 1;" parent="g4sBY3vQFwJTmv0VMaXS-29" vertex="1">
