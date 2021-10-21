@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T02:54:35.660Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="iKQk1hmKwxkMHq9dEniQ" version="15.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-21T03:02:01.423Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="cntQB9-2fU9QT2b6IpOs" version="15.5.5" type="github">
   <diagram id="u0_twf8YNsRj_HJE-j4O" name="Page-1">
     <mxGraphModel dx="1185" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -90,10 +90,10 @@
           <mxGeometry x="560" y="180" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="g4sBY3vQFwJTmv0VMaXS-29" value="Pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;strokeColor=#E6E6E6;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="720" width="790" height="1110" as="geometry" />
+          <mxGeometry x="200" y="720" width="790" height="1310" as="geometry" />
         </mxCell>
         <mxCell id="g4sBY3vQFwJTmv0VMaXS-30" value="主播" style="swimlane;startSize=20;strokeColor=#808080;dashed=1;dashPattern=1 1;" parent="g4sBY3vQFwJTmv0VMaXS-29" vertex="1">
-          <mxGeometry x="20" width="120" height="1110" as="geometry" />
+          <mxGeometry x="20" width="120" height="1310" as="geometry" />
         </mxCell>
         <mxCell id="g4sBY3vQFwJTmv0VMaXS-46" value="主播" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="g4sBY3vQFwJTmv0VMaXS-30" vertex="1">
           <mxGeometry x="45" y="160" width="30" height="60" as="geometry" />
@@ -104,11 +104,8 @@
         <mxCell id="z2xvUa6bOidR-Bl0gTQm-137" value="加入频道回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="g4sBY3vQFwJTmv0VMaXS-30">
           <mxGeometry x="15" y="660" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="z2xvUa6bOidR-Bl0gTQm-150" value="加入频道回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="g4sBY3vQFwJTmv0VMaXS-30">
-          <mxGeometry x="15" y="880" width="90" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="g4sBY3vQFwJTmv0VMaXS-31" value="客户" style="swimlane;startSize=20;strokeColor=#808080;dashed=1;dashPattern=1 1;" parent="g4sBY3vQFwJTmv0VMaXS-29" vertex="1">
-          <mxGeometry x="140" width="120" height="1110" as="geometry" />
+          <mxGeometry x="140" width="120" height="1310" as="geometry" />
         </mxCell>
         <mxCell id="g4sBY3vQFwJTmv0VMaXS-40" value="用户A" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="g4sBY3vQFwJTmv0VMaXS-31" vertex="1">
           <mxGeometry x="40" y="40" width="30" height="60" as="geometry" />
@@ -119,8 +116,11 @@
         <mxCell id="z2xvUa6bOidR-Bl0gTQm-143" value="发起加入频道" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="g4sBY3vQFwJTmv0VMaXS-31">
           <mxGeometry x="15" y="740" width="90" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="z2xvUa6bOidR-Bl0gTQm-150" value="加入频道回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="g4sBY3vQFwJTmv0VMaXS-31">
+          <mxGeometry x="15" y="880" width="90" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="g4sBY3vQFwJTmv0VMaXS-32" value="服务端" style="swimlane;startSize=20;strokeColor=#808080;dashed=1;dashPattern=1 1;" parent="g4sBY3vQFwJTmv0VMaXS-29" vertex="1">
-          <mxGeometry x="260" width="170" height="1110" as="geometry" />
+          <mxGeometry x="260" width="170" height="1310" as="geometry" />
         </mxCell>
         <mxCell id="g4sBY3vQFwJTmv0VMaXS-42" value="呼叫接口" style="rounded=0;whiteSpace=wrap;html=1;" parent="g4sBY3vQFwJTmv0VMaXS-32" vertex="1">
           <mxGeometry x="40" y="40" width="90" height="40" as="geometry" />
@@ -158,8 +158,20 @@
         <mxCell id="z2xvUa6bOidR-Bl0gTQm-147" value="开始计费" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="g4sBY3vQFwJTmv0VMaXS-32">
           <mxGeometry x="40" y="800" width="90" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="z2xvUa6bOidR-Bl0gTQm-153" value="自检队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="g4sBY3vQFwJTmv0VMaXS-32">
+          <mxGeometry x="40" y="960" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z2xvUa6bOidR-Bl0gTQm-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontColor=#CC0000;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="g4sBY3vQFwJTmv0VMaXS-32" source="z2xvUa6bOidR-Bl0gTQm-139" target="z2xvUa6bOidR-Bl0gTQm-153">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="700" />
+              <mxPoint x="20" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="g4sBY3vQFwJTmv0VMaXS-38" value="IM" style="swimlane;startSize=20;strokeColor=#808080;dashed=1;dashPattern=1 1;" parent="g4sBY3vQFwJTmv0VMaXS-29" vertex="1">
-          <mxGeometry x="430" width="240" height="1110" as="geometry" />
+          <mxGeometry x="430" width="240" height="1310" as="geometry" />
         </mxCell>
         <mxCell id="g4sBY3vQFwJTmv0VMaXS-45" value="消息发送接口" style="rounded=0;whiteSpace=wrap;html=1;" parent="g4sBY3vQFwJTmv0VMaXS-38" vertex="1">
           <mxGeometry x="50" y="40" width="90" height="40" as="geometry" />
@@ -174,7 +186,7 @@
           <mxGeometry x="50" y="660" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="g4sBY3vQFwJTmv0VMaXS-39" value="深网" style="swimlane;startSize=20;strokeColor=#808080;dashed=1;dashPattern=1 1;" parent="g4sBY3vQFwJTmv0VMaXS-29" vertex="1">
-          <mxGeometry x="670" width="120" height="1110" as="geometry" />
+          <mxGeometry x="670" width="120" height="1310" as="geometry" />
         </mxCell>
         <mxCell id="bjaMCamKSF5sM4Zxcl0b-7" value="加入频道" style="rounded=0;whiteSpace=wrap;html=1;" parent="g4sBY3vQFwJTmv0VMaXS-39" vertex="1">
           <mxGeometry x="15" y="580" width="90" height="40" as="geometry" />
@@ -267,9 +279,12 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="730" y="860" />
-              <mxPoint x="80" y="860" />
+              <mxPoint x="200" y="860" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="z2xvUa6bOidR-Bl0gTQm-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#CC0000;" edge="1" parent="g4sBY3vQFwJTmv0VMaXS-29" source="z2xvUa6bOidR-Bl0gTQm-150" target="z2xvUa6bOidR-Bl0gTQm-147">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bjaMCamKSF5sM4Zxcl0b-14" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
