@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T03:58:17.977Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="7na6TGJjJ7GUHwUrjluQ" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T04:28:18.554Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="yikRjaaVYhJvwKE6BZq2" version="15.6.6" type="github">
   <diagram id="u0_twf8YNsRj_HJE-j4O" name="Page-1">
-    <mxGraphModel dx="3022" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3262" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -697,6 +697,15 @@
           <mxGeometry x="-487" y="1267" as="geometry">
             <mxPoint x="2" y="-3" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="dQgIhdq-PcqJNBqw3Aq7-116" value="主播状态表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-101" y="1015" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dQgIhdq-PcqJNBqw3Aq7-117" value="UID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="dQgIhdq-PcqJNBqw3Aq7-116">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dQgIhdq-PcqJNBqw3Aq7-118" value="状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="dQgIhdq-PcqJNBqw3Aq7-116">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
