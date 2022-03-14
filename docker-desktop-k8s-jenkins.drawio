@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T01:44:53.333Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="f-Y2R4tCCYPQgD7F39ai" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-14T01:53:50.750Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="4qKudtKXQ2RHq_IpoE2-" version="16.6.4" type="github">
   <diagram id="4eVndLDxbjs94qkhGAi8" name="Page-1">
     <mxGraphModel dx="2462" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,11 +19,39 @@
         <mxCell id="ow6EQ-kJXPrznF-c8fP3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ow6EQ-kJXPrznF-c8fP3-4" target="ow6EQ-kJXPrznF-c8fP3-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ow6EQ-kJXPrznF-c8fP3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ow6EQ-kJXPrznF-c8fP3-4" target="ow6EQ-kJXPrznF-c8fP3-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ow6EQ-kJXPrznF-c8fP3-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ow6EQ-kJXPrznF-c8fP3-4" target="ow6EQ-kJXPrznF-c8fP3-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ow6EQ-kJXPrznF-c8fP3-4" value="安装 Docker Desktop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="280" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ow6EQ-kJXPrznF-c8fP3-7" value="&lt;h1&gt;下地地址&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;https://www.docker.com/products/docker-desktop&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-32.5" y="370" width="245" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ow6EQ-kJXPrznF-c8fP3-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ow6EQ-kJXPrznF-c8fP3-9" target="ow6EQ-kJXPrznF-c8fP3-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ow6EQ-kJXPrznF-c8fP3-9" value="启用Kubernetes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ow6EQ-kJXPrznF-c8fP3-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ow6EQ-kJXPrznF-c8fP3-12" target="ow6EQ-kJXPrznF-c8fP3-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ow6EQ-kJXPrznF-c8fP3-12" value="安装Docker Registry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ow6EQ-kJXPrznF-c8fP3-15" value="&lt;h1&gt;注意&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;在K8S中安装registry可能会出现 connect refuens&amp;nbsp;问题&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="30" width="245" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ow6EQ-kJXPrznF-c8fP3-17" value="安装Jenkins" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
