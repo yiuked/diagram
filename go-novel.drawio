@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T09:25:41.304Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="01PNFbBVLOFnsiprEtp6" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T09:26:19.422Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="GXX4ZrX9bLhTIGWY_rIb" version="17.2.4" type="github">
   <diagram id="C5Nr7sDoLl8aCju4-hID" name="Page-1">
     <mxGraphModel dx="3262" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -75,8 +75,14 @@
         <mxCell id="OMRxtPGPCvsjt6vhJt8H-2" value="章节列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-760" y="480" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="OMRxtPGPCvsjt6vhJt8H-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OMRxtPGPCvsjt6vhJt8H-4" target="OMRxtPGPCvsjt6vhJt8H-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OMRxtPGPCvsjt6vhJt8H-4" value="章节" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-640" y="600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OMRxtPGPCvsjt6vhJt8H-6" value="封面图片" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="600" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
