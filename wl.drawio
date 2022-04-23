@@ -1,50 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T10:17:09.130Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="LK5_ZrhDmU8pzumdFRGO" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-23T07:25:06.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="pZfYVuIWPJaM9LghxGxY" version="17.4.6" type="github">
   <diagram id="PLU3RgHzDewYcSfC9EKs" name="Page-1">
-    <mxGraphModel dx="1780" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1780" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="AkYh8S7NBgBzP_F2tKcM-1" value="节点信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="AkYh8S7NBgBzP_F2tKcM-1" value="节点信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="-600" y="280" width="160" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="AkYh8S7NBgBzP_F2tKcM-2" value="+ID                节点ID&#xa;+Cover          封面&#xa;+Title             标题&#xa;+Intro            介绍&#xa;+BasePrice   基准价&#xa;+Incremental 涨价&#xa;+AwardTotal  奖励总数&#xa;+AwarduP     奖励已发放数&#xa;+AirdropTotal 空投总数&#xa;+AirdropUp    已空投数量&#xa;+Total            总节点&#xa;+Sold             剩余节点&#xa;+YunTime      分币元年" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="AkYh8S7NBgBzP_F2tKcM-1">
+        <mxCell id="AkYh8S7NBgBzP_F2tKcM-2" value="+ID                节点ID&#xa;+Cover          封面&#xa;+Title             标题&#xa;+Intro            介绍&#xa;+BasePrice   基准价&#xa;+Incremental 涨价&#xa;+AwardTotal  奖励总数&#xa;+AwarduP     奖励已发放数&#xa;+AirdropTotal 空投总数&#xa;+AirdropUp    已空投数量&#xa;+Total            总节点&#xa;+Sold             剩余节点&#xa;+YunTime      分币元年" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="AkYh8S7NBgBzP_F2tKcM-1" vertex="1">
           <mxGeometry y="30" width="160" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="AkYh8S7NBgBzP_F2tKcM-3" value="订单信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="AkYh8S7NBgBzP_F2tKcM-3" value="订单信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="-600" y="560" width="160" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="AkYh8S7NBgBzP_F2tKcM-4" value="+ID                订单ID&#xa;+UserId         用户ID&#xa;+OrderNum   订单编号&#xa;+BuyCount    购买节点数量&#xa;+Amount        实际消费金额&#xa;+Ewom           消费的wom数&#xa;+Gas              手续费&#xa;+HashVlue     哈希检验值&#xa;+State            状态:1\2\3&#xa;+CreateTime  下单时间&#xa;+PayTime      支付时间" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="AkYh8S7NBgBzP_F2tKcM-3">
+        <mxCell id="AkYh8S7NBgBzP_F2tKcM-4" value="+ID                订单ID&#xa;+UserId         用户ID&#xa;+OrderNum   订单编号&#xa;+BuyCount    购买节点数量&#xa;+Amount        实际消费金额&#xa;+Ewom           消费的wom数&#xa;+Gas              手续费&#xa;+HashVlue     哈希检验值&#xa;+State            状态:1\2\3&#xa;+CreateTime  下单时间&#xa;+PayTime      支付时间" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="AkYh8S7NBgBzP_F2tKcM-3" vertex="1">
           <mxGeometry y="30" width="160" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="AkYh8S7NBgBzP_F2tKcM-5" value="用户节点记录" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="AkYh8S7NBgBzP_F2tKcM-5" value="用户节点记录" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="-100" y="700" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="AkYh8S7NBgBzP_F2tKcM-6" value="+ID                记录ID&#xa;+UserId         用户ID&#xa;+Node           节点数量&#xa;+Type            获得类型&#xa;+CreateTime  下单时间" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="AkYh8S7NBgBzP_F2tKcM-5">
+        <mxCell id="AkYh8S7NBgBzP_F2tKcM-6" value="+ID                记录ID&#xa;+UserId         用户ID&#xa;+Node           节点数量&#xa;+Type            获得类型&#xa;+CreateTime  下单时间" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="AkYh8S7NBgBzP_F2tKcM-5" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="AkYh8S7NBgBzP_F2tKcM-7" value="用户分币记录" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="AkYh8S7NBgBzP_F2tKcM-7" value="用户分币记录" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="-630" y="870" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="AkYh8S7NBgBzP_F2tKcM-8" value="+ID                记录ID&#xa;+UserId         用户ID&#xa;+Node           节点数量&#xa;+Purchased   购买节点数&#xa;+Award          奖励节点数&#xa;+AirDrop       空投节点数量&#xa;+PerEwom   单个节点分币数&#xa;+ReadState  读取状态&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="AkYh8S7NBgBzP_F2tKcM-7">
+        <mxCell id="AkYh8S7NBgBzP_F2tKcM-8" value="+ID                记录ID&#xa;+UserId         用户ID&#xa;+Node           节点数量&#xa;+Purchased   购买节点数&#xa;+Award          奖励节点数&#xa;+AirDrop       空投节点数量&#xa;+PerEwom   单个节点分币数&#xa;+ReadState  读取状态&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="AkYh8S7NBgBzP_F2tKcM-7" vertex="1">
           <mxGeometry y="30" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="AkYh8S7NBgBzP_F2tKcM-9" value="空投奖励" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="AkYh8S7NBgBzP_F2tKcM-9" value="空投奖励" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="-370" y="530" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="AkYh8S7NBgBzP_F2tKcM-10" value="+ID                记录ID&#xa;+Uuid            uuid&#xa;+UserId         用户ID&#xa;+Node           节点数量&#xa;+State           状态1/2/3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="AkYh8S7NBgBzP_F2tKcM-9">
+        <mxCell id="AkYh8S7NBgBzP_F2tKcM-10" value="+ID                记录ID&#xa;+Uuid            uuid&#xa;+UserId         用户ID&#xa;+Node           节点数量&#xa;+State           状态1/2/3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="AkYh8S7NBgBzP_F2tKcM-9" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="AkYh8S7NBgBzP_F2tKcM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="AkYh8S7NBgBzP_F2tKcM-4" target="AkYh8S7NBgBzP_F2tKcM-6">
+        <mxCell id="AkYh8S7NBgBzP_F2tKcM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="AkYh8S7NBgBzP_F2tKcM-4" target="AkYh8S7NBgBzP_F2tKcM-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AkYh8S7NBgBzP_F2tKcM-14" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AkYh8S7NBgBzP_F2tKcM-10" target="AkYh8S7NBgBzP_F2tKcM-5">
+        <mxCell id="AkYh8S7NBgBzP_F2tKcM-14" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="AkYh8S7NBgBzP_F2tKcM-10" target="AkYh8S7NBgBzP_F2tKcM-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AkYh8S7NBgBzP_F2tKcM-15" value="下级用户购买统计" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="AkYh8S7NBgBzP_F2tKcM-15" value="下级用户购买统计" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="-250" y="920" width="160" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="AkYh8S7NBgBzP_F2tKcM-16" value="+ID                记录ID&#xa;+UserId         用户ID&#xa;+BuyNode     购买数量&#xa;（超过特定数值触发奖励，&#xa;并扣减对应的数量）" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="AkYh8S7NBgBzP_F2tKcM-15">
+        <mxCell id="AkYh8S7NBgBzP_F2tKcM-16" value="+ID                记录ID&#xa;+UserId         用户ID&#xa;+BuyNode     购买数量&#xa;（超过特定数值触发奖励，&#xa;并扣减对应的数量）" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="AkYh8S7NBgBzP_F2tKcM-15" vertex="1">
           <mxGeometry y="30" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gAlxvQ6e3QjvA5oyhpVT-1" value="ETH" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="-200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gAlxvQ6e3QjvA5oyhpVT-2" value="wom" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="-120" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
