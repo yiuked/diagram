@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-31T10:31:55.584Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="OIQ-jWMxcDpwiLxnLQNQ" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-31T10:37:55.631Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="dvGmD3hIUaUcct2TsttW" version="18.1.2" type="github">
   <diagram id="UTzgL9qfjFfGgWq564MX" name="Page-1">
-    <mxGraphModel dx="3356" dy="2102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2023" dy="1423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -340,13 +340,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T9-NXceqQanARWgvFfsZ-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T9-NXceqQanARWgvFfsZ-129" target="T9-NXceqQanARWgvFfsZ-131">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="900" />
+              <mxPoint x="810" y="660" />
+              <mxPoint x="900" y="660" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="T9-NXceqQanARWgvFfsZ-129" value="确认购买" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="880" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="T9-NXceqQanARWgvFfsZ-131" value="输入购买参数" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="840" y="680" width="140" height="150" as="geometry" />
+          <mxGeometry x="830" y="680" width="140" height="150" as="geometry" />
         </mxCell>
         <mxCell id="T9-NXceqQanARWgvFfsZ-132" value="+id             TOKEN&#xa;+limited      发行上限&#xa;+metaURI  NFT展示地址&#xa;+price        价格&#xa;+seller       卖家地址&#xa;+feeRate   手续费比例&#xa;+signature 签名" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="T9-NXceqQanARWgvFfsZ-131">
           <mxGeometry y="30" width="140" height="120" as="geometry" />
@@ -393,7 +399,7 @@
         <mxCell id="T9-NXceqQanARWgvFfsZ-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="T9-NXceqQanARWgvFfsZ-148" target="T9-NXceqQanARWgvFfsZ-139">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T9-NXceqQanARWgvFfsZ-148" value="额度授权" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="T9-NXceqQanARWgvFfsZ-148" value="额度授权" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="850" y="880" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="T9-NXceqQanARWgvFfsZ-152" value="输入购买参数" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
