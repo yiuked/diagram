@@ -1,1 +1,149 @@
-<mxfile host="app.diagrams.net" modified="2022-05-31T08:45:21.651Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" version="18.1.2" etag="anrI5r3fEm379cRYRAJk" type="github"><diagram id="UTzgL9qfjFfGgWq564MX">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-31T09:24:53.762Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="AICJP7DGmmKX8UOrjv86" version="18.1.2" type="github">
+  <diagram id="UTzgL9qfjFfGgWq564MX" name="Page-1">
+    <mxGraphModel dx="1806" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T9-NXceqQanARWgvFfsZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="T9-NXceqQanARWgvFfsZ-1" target="T9-NXceqQanARWgvFfsZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-1" value="卖家" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="-40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-4" value="输入NFT发行信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-255" width="140" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-5" value="+id&#xa;+limited      发行上限&#xa;+metaURI  NFT展示地址&#xa;+price         价格" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="T9-NXceqQanARWgvFfsZ-4">
+          <mxGeometry y="30" width="140" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T9-NXceqQanARWgvFfsZ-8" target="T9-NXceqQanARWgvFfsZ-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="-60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-8" value="第三方授权" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="-207.5" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T9-NXceqQanARWgvFfsZ-10" target="T9-NXceqQanARWgvFfsZ-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-13" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T9-NXceqQanARWgvFfsZ-12">
+          <mxGeometry x="-0.13" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="T9-NXceqQanARWgvFfsZ-10" target="T9-NXceqQanARWgvFfsZ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-16" value="无" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T9-NXceqQanARWgvFfsZ-14">
+          <mxGeometry x="-0.1455" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-10" value="平台账户" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="-60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="T9-NXceqQanARWgvFfsZ-17" target="T9-NXceqQanARWgvFfsZ-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-17" value="买家" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.463;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="T9-NXceqQanARWgvFfsZ-18" target="T9-NXceqQanARWgvFfsZ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-18" value="生成签名" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-20" value="签名参数" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="740" y="-255" width="140" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-21" value="+id             TOKEN&#xa;+limited      发行上限&#xa;+metaURI  NFT展示地址&#xa;+price        价格&#xa;+seller       卖家地址&#xa;+feeRate   手续费比例" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="T9-NXceqQanARWgvFfsZ-20">
+          <mxGeometry y="30" width="140" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="T9-NXceqQanARWgvFfsZ-22" target="T9-NXceqQanARWgvFfsZ-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="T9-NXceqQanARWgvFfsZ-22" target="T9-NXceqQanARWgvFfsZ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-22" value="卖出NFT" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="T9-NXceqQanARWgvFfsZ-27" target="T9-NXceqQanARWgvFfsZ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="T9-NXceqQanARWgvFfsZ-27" target="T9-NXceqQanARWgvFfsZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-27" value="发行NFT" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-32" value="输入NFT卖出信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="510" y="30" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-33" value="+id&#xa;+quantity    卖出数量&#xa;+price         价格" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="T9-NXceqQanARWgvFfsZ-32">
+          <mxGeometry y="30" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="T9-NXceqQanARWgvFfsZ-34" target="T9-NXceqQanARWgvFfsZ-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-34" value="生成签名" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-37" value="签名参数" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="760" y="30" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-38" value="+id             TOKEN&#xa;+price        价格&#xa;+seller       卖家地址&#xa;+feeRate   手续费比例" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="T9-NXceqQanARWgvFfsZ-37">
+          <mxGeometry y="30" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="T9-NXceqQanARWgvFfsZ-41" target="T9-NXceqQanARWgvFfsZ-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-41" value="授权NFT" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="T9-NXceqQanARWgvFfsZ-43" target="T9-NXceqQanARWgvFfsZ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T9-NXceqQanARWgvFfsZ-43" target="T9-NXceqQanARWgvFfsZ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-43" value="动作" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="T9-NXceqQanARWgvFfsZ-47" target="T9-NXceqQanARWgvFfsZ-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-52" value="无" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T9-NXceqQanARWgvFfsZ-51">
+          <mxGeometry y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-53" value="有" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T9-NXceqQanARWgvFfsZ-47" target="T9-NXceqQanARWgvFfsZ-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-47" value="平台账户" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-49" value="购买NFT" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="T9-NXceqQanARWgvFfsZ-50" target="T9-NXceqQanARWgvFfsZ-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-50" value="第三方授权" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="T9-NXceqQanARWgvFfsZ-55" target="T9-NXceqQanARWgvFfsZ-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-55" value="浏览NFT" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
