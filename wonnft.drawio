@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-31T10:38:47.300Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="PqELGoVQuaGE84bOlGuW" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-31T10:43:28.972Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="Evw8227yN9UY6uzw_lzg" version="18.1.2" type="github">
   <diagram id="UTzgL9qfjFfGgWq564MX" name="Page-1">
     <mxGraphModel dx="2023" dy="1423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -185,6 +185,9 @@
           <mxGeometry x="0.0154" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-177" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF3333;strokeColor=#FF3333;" edge="1" parent="1" source="T9-NXceqQanARWgvFfsZ-68" target="T9-NXceqQanARWgvFfsZ-175">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T9-NXceqQanARWgvFfsZ-68" value="发行方式" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="-225" width="80" height="80" as="geometry" />
@@ -451,6 +454,9 @@
         </mxCell>
         <mxCell id="T9-NXceqQanARWgvFfsZ-170" value="确认购买" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="1480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T9-NXceqQanARWgvFfsZ-175" value="一口价为：当买方完全符合卖家定价时，直接完成交易" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="-350" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
