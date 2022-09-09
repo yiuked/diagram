@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T02:54:51.111Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="zL2DHS_Kf2dn1u5raicP" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-09T02:12:01.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="_JNS_2a99P2FD3j2VJIB" version="20.2.8" type="github">
   <diagram id="XbavgsnFWZXn_3_bb3mC" name="第 1 页">
-    <mxGraphModel dx="2788" dy="1744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2570" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="oWFz19h-Vb3u6tuYohFT-1" value="随卡福利模板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1240" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oWFz19h-Vb3u6tuYohFT-2" value="固定福利模板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1240" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oWFz19h-Vb3u6tuYohFT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oWFz19h-Vb3u6tuYohFT-3" target="oWFz19h-Vb3u6tuYohFT-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oWFz19h-Vb3u6tuYohFT-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oWFz19h-Vb3u6tuYohFT-3" target="oWFz19h-Vb3u6tuYohFT-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oWFz19h-Vb3u6tuYohFT-3" value="随卡福利" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1160" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oWFz19h-Vb3u6tuYohFT-4" value="实物" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oWFz19h-Vb3u6tuYohFT-5" value="虚拟" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oWFz19h-Vb3u6tuYohFT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oWFz19h-Vb3u6tuYohFT-10" target="oWFz19h-Vb3u6tuYohFT-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oWFz19h-Vb3u6tuYohFT-10" value="添加" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1280" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
