@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-08T01:57:02.247Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="gGViBgeqERox_IgD5auD" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-08T02:09:44.797Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="qWplddXofH-2qFEUxcIh" version="24.2.1" type="github">
   <diagram name="Page-1" id="pm2L1Bidg9IsTdtVsFzw">
     <mxGraphModel dx="1713" dy="757" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -111,13 +111,21 @@
             <mxPoint x="160" y="1050" as="targetPoint" />
             <Array as="points">
               <mxPoint x="120" y="1020" />
-              <mxPoint x="120" y="1060" />
+              <mxPoint x="120" y="1070" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="IT227uI_q5D9Mf_ypxAm-62" value="货品配送中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IT227uI_q5D9Mf_ypxAm-36">
           <mxGeometry x="0.0432" y="4" relative="1" as="geometry">
-            <mxPoint x="4" y="4" as="offset" />
+            <mxPoint x="-2" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IT227uI_q5D9Mf_ypxAm-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IT227uI_q5D9Mf_ypxAm-29" target="IT227uI_q5D9Mf_ypxAm-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IT227uI_q5D9Mf_ypxAm-69" value="客户拒收" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IT227uI_q5D9Mf_ypxAm-68">
+          <mxGeometry x="-0.6313" y="2" relative="1" as="geometry">
+            <mxPoint x="8" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IT227uI_q5D9Mf_ypxAm-29" value="&lt;b&gt;客户小程序申请退款&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
@@ -133,7 +141,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IT227uI_q5D9Mf_ypxAm-39" value="&lt;b&gt;客服在平台&lt;/b&gt;&lt;b&gt;通过申请&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="523" y="1040" width="80" height="40" as="geometry" />
+          <mxGeometry x="523" y="1050" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IT227uI_q5D9Mf_ypxAm-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IT227uI_q5D9Mf_ypxAm-41" target="IT227uI_q5D9Mf_ypxAm-39">
           <mxGeometry relative="1" as="geometry">
@@ -156,7 +164,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IT227uI_q5D9Mf_ypxAm-41" value="&lt;b&gt;客服拦截&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1020" width="80" height="80" as="geometry" />
+          <mxGeometry x="320" y="1030" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IT227uI_q5D9Mf_ypxAm-49" value="&lt;b&gt;ERP同步申请退款状态&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="643" y="1120" width="80" height="40" as="geometry" />
@@ -188,13 +196,16 @@
         <mxCell id="IT227uI_q5D9Mf_ypxAm-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IT227uI_q5D9Mf_ypxAm-65" target="IT227uI_q5D9Mf_ypxAm-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IT227uI_q5D9Mf_ypxAm-67" value="引导客户收到货后重新申请" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IT227uI_q5D9Mf_ypxAm-66">
+        <mxCell id="IT227uI_q5D9Mf_ypxAm-67" value="引导客户走拒收流程重新申请" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IT227uI_q5D9Mf_ypxAm-66">
           <mxGeometry x="-0.3099" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IT227uI_q5D9Mf_ypxAm-65" value="&lt;b&gt;客服在平台拒绝申请&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="320" y="1200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IT227uI_q5D9Mf_ypxAm-70" value="&lt;ul&gt;&lt;li&gt;客户退回填回寄物流单号&lt;/li&gt;&lt;li&gt;拦截成功与客户拒收传原物流单号&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="702" y="1175" width="243" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
