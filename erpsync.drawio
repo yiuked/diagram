@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-08T02:09:44.797Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="qWplddXofH-2qFEUxcIh" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-10T09:03:43.989Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="5YiWT5nlB-o3TFZgwleY" version="24.2.1" type="github">
   <diagram name="Page-1" id="pm2L1Bidg9IsTdtVsFzw">
-    <mxGraphModel dx="1713" dy="757" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1713" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -206,6 +206,18 @@
         </mxCell>
         <mxCell id="IT227uI_q5D9Mf_ypxAm-70" value="&lt;ul&gt;&lt;li&gt;客户退回填回寄物流单号&lt;/li&gt;&lt;li&gt;拦截成功与客户拒收传原物流单号&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
           <mxGeometry x="702" y="1175" width="243" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IT227uI_q5D9Mf_ypxAm-71" value="&lt;b&gt;特定商品不推ERP&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1730" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IT227uI_q5D9Mf_ypxAm-72" value="&lt;b&gt;无标识的推ERP&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1650" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IT227uI_q5D9Mf_ypxAm-74" value="&lt;b&gt;核销商品不推&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="1640" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IT227uI_q5D9Mf_ypxAm-75" value="&lt;b&gt;无商品编号的不推&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="1720" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
